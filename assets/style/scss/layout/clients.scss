@@ -1,0 +1,23 @@
+.clients {
+	padding: 450px 0 120px;
+	background-color: #9b59b6;
+
+	.title {
+		margin-bottom: 80px;
+		color: #fff;
+	}
+
+	.client-list {
+		padding: 20px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		text-align: center;
+
+		img {
+			width: 50%;
+			height: auto;
+			filter: brightness(100);
+		}
+	}
+}

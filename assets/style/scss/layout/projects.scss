@@ -1,0 +1,66 @@
+.projects {
+	padding: 100px 0 120px;
+	background-color: #27ae60;
+
+	.title {
+		color: #fff;
+	}
+
+	.description {
+		margin-bottom: 75px;
+		color: #fff;
+	}
+
+	.slider {
+		margin: 50px auto;
+		position: relative;
+		max-width: 1500px;
+
+		.next, .prev {
+			display: block;
+			width: 47px;
+			height: 88px;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			background: url("../../img/arrow.png") 50% 0/cover no-repeat;
+			border: none;
+			cursor: pointer;
+			z-index: 10;
+		}
+
+		.prev {
+			left: 150px;
+		}
+
+		.next {
+			right: 150px;
+			transform: translateY(-50%) rotate(180deg);
+		}
+
+		.slider-list {
+			position: relative;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-between;
+
+			.slider-item {
+				width: 670px;
+
+				img {
+				width: 100%;
+				height: auto;
+				}
+
+			}
+
+			.slider-item.active {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%) scale(1.2);
+			}
+
+		}
+	}
+}

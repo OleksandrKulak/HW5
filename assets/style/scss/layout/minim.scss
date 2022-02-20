@@ -1,0 +1,24 @@
+.minim {
+	position: relative;
+	padding: 110px 0 365px;
+	background-color: #ecf0f1;
+
+	.popover-list {
+		display: flex;
+		position: absolute;
+		bottom: -400px;
+		left: 50%;
+		transform: translateX(-50%);	
+		justify-content: space-between;
+		gap: 30px;
+
+		.popover {
+			width: 555px;
+			height: 537px;
+
+			.description {
+				width: 444px;
+			}
+		}
+	}
+}

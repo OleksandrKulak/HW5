@@ -1,0 +1,63 @@
+ .team {
+	padding: 100px 0;
+	background-color: #ecf0f1;
+
+	.description {
+		margin-bottom: 70px;
+	}
+
+	.team-list {
+		display: flex;
+		justify-content: space-between;
+
+		.member {
+			text-align: center;
+			
+			.cover {
+				width: 220px;
+				height: 220px;
+				margin: 0 auto 40px;
+
+				img {
+					width: 100%;
+					height: auto;
+				}
+			}
+
+			.member-name {
+				margin-bottom: 30px;
+				font-size: 20px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-align: center;
+				color: #2c3e50;
+			}
+
+			.member-description {
+				margin-bottom: 30px;
+				max-width: 301px;
+				font-size: 16px;
+				font-weight: 500;
+				line-height: 1.88;
+				text-align: center;
+				color: #2c3e50;
+			}
+
+			.social {
+				display: flex;
+				justify-content: center;
+				gap: 18px;
+
+				.social-logo {
+					width: 35px;
+					height: 35px;
+
+					img {
+						width: 100%;
+						height: auto;
+					}
+				}
+			}
+		}
+	}
+}

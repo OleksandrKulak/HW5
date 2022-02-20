@@ -1,0 +1,43 @@
+.about {
+	padding: 470px 0 120px;
+	background-color: #ecf0f1;
+	position: relative;
+
+	.popover {
+		width: 1140px;
+		position: absolute;
+		top: -220px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.about-list {
+		display: flex;
+		justify-content: space-between;
+
+		.about-item {
+			padding: 15px;
+
+			.cover {
+				margin: 0 auto 40px;
+				width: 220px;
+				height: 220px;
+
+				img {
+					width: 100%;
+					height: auto;
+				}
+			}
+
+			.about-name {
+				max-width: 281px;
+				font-size: 20px;
+				font-weight: bold;
+				line-height: 1.75;
+				text-align: center;
+				text-transform: uppercase;
+				color: #2c3e50;
+			}
+		}
+	}
+}

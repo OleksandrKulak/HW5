@@ -1,0 +1,1 @@
+sass --watch ./assets/style/scss/maine.scss ./assets/style/css/style.css

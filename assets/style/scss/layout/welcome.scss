@@ -1,0 +1,41 @@
+.welcome {
+	padding: 30px 0 370px;
+	background-color: #3498db;
+
+	.main-header {
+		padding: 25px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.menu {
+			width: 42px;
+			height: 31px;
+			background: transparent;
+			border: none;
+			cursor: pointer;
+
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+
+	.welcome-description {
+		margin-top: 200px;
+		font-family: "Raleway", sans-serif;
+		font-size: 86px;
+		line-height: 1.07;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+		color: #ecf0f1;
+
+		span {
+			display: block;
+			font-size: 60px;
+			line-height: 1.53;
+		}
+	}
+}

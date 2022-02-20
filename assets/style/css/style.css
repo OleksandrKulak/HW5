@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del,
+dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section, summary, time,
+mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 300px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2c3e50;
+}
+.title.badge {
+  margin-bottom: 100px;
+  position: relative;
+}
+.title.badge:after {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  bottom: -65px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  background: no-repeat center/cover url("../../img/prostok.png");
+}
+
+.description {
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.75;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2c3e50;
+}
+
+.main-btn {
+  display: block;
+  padding: 30px;
+  border: none;
+  border-radius: 40px;
+  background-color: #3498db;
+  font-size: 20px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+
+.main-logo {
+  position: relative;
+  width: 150px;
+  height: 35px;
+  overflow: hidden;
+  font-size: 0;
+}
+.main-logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.welcome {
+  padding: 30px 0 370px;
+  background-color: #3498db;
+}
+.welcome .main-header {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.welcome .main-header .menu {
+  width: 42px;
+  height: 31px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.welcome .main-header .menu img {
+  width: 100%;
+  height: auto;
+}
+.welcome .welcome-description {
+  margin-top: 200px;
+  font-family: "Raleway", sans-serif;
+  font-size: 86px;
+  line-height: 1.07;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ecf0f1;
+}
+.welcome .welcome-description span {
+  display: block;
+  font-size: 60px;
+  line-height: 1.53;
+}
+
+.about {
+  padding: 470px 0 120px;
+  background-color: #ecf0f1;
+  position: relative;
+}
+.about .popover {
+  width: 1140px;
+  position: absolute;
+  top: -220px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.about .about-list {
+  display: flex;
+  justify-content: space-between;
+}
+.about .about-list .about-item {
+  padding: 15px;
+}
+.about .about-list .about-item .cover {
+  margin: 0 auto 40px;
+  width: 220px;
+  height: 220px;
+}
+.about .about-list .about-item .cover img {
+  width: 100%;
+  height: auto;
+}
+.about .about-list .about-item .about-name {
+  max-width: 281px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.75;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2c3e50;
+}
+
+.team {
+  padding: 100px 0;
+  background-color: #ecf0f1;
+}
+.team .description {
+  margin-bottom: 70px;
+}
+.team .team-list {
+  display: flex;
+  justify-content: space-between;
+}
+.team .team-list .member {
+  text-align: center;
+}
+.team .team-list .member .cover {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto 40px;
+}
+.team .team-list .member .cover img {
+  width: 100%;
+  height: auto;
+}
+.team .team-list .member .member-name {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2c3e50;
+}
+.team .team-list .member .member-description {
+  margin-bottom: 30px;
+  max-width: 301px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.88;
+  text-align: center;
+  color: #2c3e50;
+}
+.team .team-list .member .social {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+.team .team-list .member .social .social-logo {
+  width: 35px;
+  height: 35px;
+}
+.team .team-list .member .social .social-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.popover {
+  padding: 75px 55px 80px;
+  border-radius: 10px;
+  box-shadow: 0.5px 0.9px 0 1px rgba(155, 155, 155, 0.3);
+  background-color: #fff;
+}
+.popover .description {
+  margin: 0 auto 64px;
+  max-width: 771px;
+}
+.popover .main-btn {
+  margin: 0 auto;
+}
+
+.projects {
+  padding: 100px 0 120px;
+  background-color: #27ae60;
+}
+.projects .title {
+  color: #fff;
+}
+.projects .description {
+  margin-bottom: 75px;
+  color: #fff;
+}
+.projects .slider {
+  margin: 50px auto;
+  position: relative;
+  max-width: 1500px;
+}
+.projects .slider .next, .projects .slider .prev {
+  display: block;
+  width: 47px;
+  height: 88px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../../img/arrow.png") 50% 0/cover no-repeat;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+.projects .slider .prev {
+  left: 150px;
+}
+.projects .slider .next {
+  right: 150px;
+  transform: translateY(-50%) rotate(180deg);
+}
+.projects .slider .slider-list {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.projects .slider .slider-list .slider-item {
+  width: 670px;
+}
+.projects .slider .slider-list .slider-item img {
+  width: 100%;
+  height: auto;
+}
+.projects .slider .slider-list .slider-item.active {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.2);
+}
+
+.minim {
+  position: relative;
+  padding: 110px 0 365px;
+  background-color: #ecf0f1;
+}
+.minim .popover-list {
+  display: flex;
+  position: absolute;
+  bottom: -400px;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: space-between;
+  gap: 30px;
+}
+.minim .popover-list .popover {
+  width: 555px;
+  height: 537px;
+}
+.minim .popover-list .popover .description {
+  width: 444px;
+}
+
+.clients {
+  padding: 450px 0 120px;
+  background-color: #9b59b6;
+}
+.clients .title {
+  margin-bottom: 80px;
+  color: #fff;
+}
+.clients .client-list {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.clients .client-list img {
+  width: 50%;
+  height: auto;
+  filter: brightness(100);
+}
+
+.main-footer {
+  padding: 65px 0 55px;
+  background-color: #2c3e50;
+}
+.main-footer .footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-footer .footer-wrapper .navigation {
+  display: flex;
+  gap: 20px;
+}
+.main-footer .footer-wrapper .navigation .nav-item {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ecf0f1;
+}
+
+/*# sourceMappingURL=style.css.map */
